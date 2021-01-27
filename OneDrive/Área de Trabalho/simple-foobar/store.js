@@ -92,7 +92,7 @@ function purchaseClicked() {
       cartItems.removeChild(cartItems.firstChild)
   }
   updateCartTotal()
-}
+} 
 
 function removeCartItem(event) {
   var buttonClicked = event.target
