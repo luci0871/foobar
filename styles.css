@@ -1,0 +1,39 @@
+.outer {
+    border: 1px solid #000;
+    height: 50px;
+    width: 10%;
+  }
+
+  .beer .outer {
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+    }
+
+  .inner {
+    transition: 1s all;
+    height: 50px;
+    width: 100%;
+    background-color: hotpink;
+  }
+
+  .innertap {
+    transition: 1s all;
+    height: 50px;
+    width: 300px;
+    background-color: blue;
+  }
+
+  .outertap {
+    border: 1px solid #000;
+    height: 50px;
+    width: 10%;
+  }
+
+  #beers{
+    display: grid;
+    grid-template-rows: auto;
+   /*  display: flex;
+    flex-wrap: wrap;
+    gap: 30px; */
+  }
