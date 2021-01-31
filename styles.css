@@ -1,14 +1,19 @@
+
+
+*{
+  font-family: 'Fraunces', serif;
+}
+
+
+
+
+
+
 .outer {
     border: 1px solid #000;
     height: 50px;
     width: 10%;
   }
-
-  .beer .outer {
-    display:flex;
-    justify-content:flex-end;
-    flex-direction:column;
-    }
 
   .inner {
     transition: 1s all;
@@ -31,9 +36,27 @@
   }
 
   #beers{
-    display: grid;
-    grid-template-rows: auto;
-   /*  display: flex;
+     display: flex;
     flex-wrap: wrap;
-    gap: 30px; */
+    gap: 30px; 
   }
+
+  .beer .outer {
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+    }
+
+  #taps{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+  }
+
+  .tap .outertap{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+
+  

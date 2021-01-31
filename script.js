@@ -13,7 +13,7 @@ setInterval(() => {
   fetch(endPoint)
     .then((res) => res.json())
     .then(updateDOM);
-}, 4000);
+}, 1000);
 
 function buildDOM(data) {
   //console.log(data);
