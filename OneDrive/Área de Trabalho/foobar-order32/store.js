@@ -49,7 +49,7 @@ function buildTaps(beers) {
     /* myBeer.querySelector("h2").textContent = beer.name;*/
     const toLowerCase = beer.name.toLowerCase();
 
-myBeer.querySelector("img").setAttribute("src", "Images/" + toLowerCase + ".png");
+myBeer.querySelector("img").setAttribute("src", "images/" + toLowerCase + ".png");
     /* myBeer.querySelector("img").setAttribute("src", "images/" + beer.name + ".png") */
     /* myTap.querySelector(
       "p"
